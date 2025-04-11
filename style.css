@@ -39,3 +39,23 @@ button {
 button:active {
     background: #bbb;
 }
+.equal {
+    grid-row: span 2;
+    background: blue;
+    color: white;
+}
+#result {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+@media (max-width: 400px) {
+    .calculator {
+        width: 90%;
+    }
+    button {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
