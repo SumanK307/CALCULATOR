@@ -28,3 +28,14 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 5px;
+}
+button:active {
+    background: #bbb;
+}
