@@ -6,9 +6,23 @@ body {
     background: #f4f4f4;
     margin: 0;
 }
+.header {
+    position: absolute;
+    top: 20px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: black; /* or white if using dark theme */
+    margin: 0;
+}
 .calculator {
     background: white;
     padding: 20px;
+    margin-top: 60px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
