@@ -41,7 +41,7 @@ button:active {
 }
 .equal {
     grid-row: span 2;
-    background: blue;
+    background: black;
     color: white;
 }
 #result {
