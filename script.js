@@ -3,7 +3,7 @@ function appendValue(value) {
 }
 function clearDisplay() {
     document.getElementById("display").value = " ";
-    document.getElementById("result").innerText = " ";
+    document.getElementById("result").innerText = "";
 }
 function backspace() {
     let display = document.getElementById("display");
